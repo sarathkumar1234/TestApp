@@ -1,17 +1,13 @@
 //
-//  ViewController.h
+//  TestFile.h
 //  SampleAppForGitHub
 //
 //  Created by Mobinius Mac on 17/12/15.
 //  Copyright © 2015 mobinius. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-{
-    NSString *str_test;
-}
+@interface TestFile : NSObject
 
 @end
-

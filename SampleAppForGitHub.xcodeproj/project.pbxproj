@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		980B96231C22E8DF00861DD7 /* TestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 980B96221C22E8DF00861DD7 /* TestFile.m */; };
 		983283DB1C22CE9200CDBC68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 983283DA1C22CE9200CDBC68 /* main.m */; };
 		983283DE1C22CE9200CDBC68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 983283DD1C22CE9200CDBC68 /* AppDelegate.m */; };
 		983283E11C22CE9200CDBC68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983283E01C22CE9200CDBC68 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		980B96211C22E8DF00861DD7 /* TestFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFile.h; sourceTree = "<group>"; };
+		980B96221C22E8DF00861DD7 /* TestFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFile.m; sourceTree = "<group>"; };
 		983283D61C22CE9200CDBC68 /* SampleAppForGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAppForGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		983283DA1C22CE9200CDBC68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		983283DC1C22CE9200CDBC68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +110,8 @@
 				983283DD1C22CE9200CDBC68 /* AppDelegate.m */,
 				983283DF1C22CE9200CDBC68 /* ViewController.h */,
 				983283E01C22CE9200CDBC68 /* ViewController.m */,
+				980B96211C22E8DF00861DD7 /* TestFile.h */,
+				980B96221C22E8DF00861DD7 /* TestFile.m */,
 				983283E21C22CE9200CDBC68 /* Main.storyboard */,
 				983283E81C22CE9200CDBC68 /* Assets.xcassets */,
 				983283EA1C22CE9200CDBC68 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				983283E71C22CE9200CDBC68 /* SampleAppForGitHub.xcdatamodeld in Sources */,
 				983283E11C22CE9200CDBC68 /* ViewController.m in Sources */,
+				980B96231C22E8DF00861DD7 /* TestFile.m in Sources */,
 				983283DE1C22CE9200CDBC68 /* AppDelegate.m in Sources */,
 				983283DB1C22CE9200CDBC68 /* main.m in Sources */,
 			);
@@ -502,6 +508,7 @@
 				983284081C22CE9200CDBC68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		983284091C22CE9200CDBC68 /* Build configuration list for PBXNativeTarget "SampleAppForGitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				9832840B1C22CE9200CDBC68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9832840C1C22CE9200CDBC68 /* Build configuration list for PBXNativeTarget "SampleAppForGitHubUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				9832840E1C22CE9200CDBC68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

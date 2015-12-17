@@ -27,6 +27,6 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    NSLog(@"checking pull request with commit");
+    NSLog(@"checking1234 pull request with commit");
 }
 @end

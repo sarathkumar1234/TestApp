@@ -17,6 +17,7 @@
 		983283EC1C22CE9200CDBC68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983283EA1C22CE9200CDBC68 /* LaunchScreen.storyboard */; };
 		983283F71C22CE9200CDBC68 /* SampleAppForGitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983283F61C22CE9200CDBC68 /* SampleAppForGitHubTests.m */; };
 		983284021C22CE9200CDBC68 /* SampleAppForGitHubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983284011C22CE9200CDBC68 /* SampleAppForGitHubUITests.m */; };
+		98A994C21C311C0E0036DE88 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98A994C11C311C0E0036DE88 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		983283FD1C22CE9200CDBC68 /* SampleAppForGitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppForGitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		983284011C22CE9200CDBC68 /* SampleAppForGitHubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppForGitHubUITests.m; sourceTree = "<group>"; };
 		983284031C22CE9200CDBC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A994C11C311C0E0036DE88 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				983283DD1C22CE9200CDBC68 /* AppDelegate.m */,
 				983283DF1C22CE9200CDBC68 /* ViewController.h */,
 				983283E01C22CE9200CDBC68 /* ViewController.m */,
+				98A994C11C311C0E0036DE88 /* ViewController.xib */,
 				980B96211C22E8DF00861DD7 /* TestFile.h */,
 				980B96221C22E8DF00861DD7 /* TestFile.m */,
 				983283E21C22CE9200CDBC68 /* Main.storyboard */,
@@ -253,6 +256,7 @@
 			files = (
 				983283EC1C22CE9200CDBC68 /* LaunchScreen.storyboard in Resources */,
 				983283E91C22CE9200CDBC68 /* Assets.xcassets in Resources */,
+				98A994C21C311C0E0036DE88 /* ViewController.xib in Resources */,
 				983283E41C22CE9200CDBC68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
